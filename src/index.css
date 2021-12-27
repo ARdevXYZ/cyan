@@ -1,17 +1,17 @@
-@import url("https://use.typekit.net/rmh7msa.css");
+@import url("https://use.typekit.net/jqo5twg.css");
 
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: nimbus-sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;;
+  font-family: nimbus-sans, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1em;
   color: #0026F5;
   cursor: crosshair !important;
+  src: local('Helvetica');
+  font-display: swap;
 }
 
 code {
@@ -68,13 +68,19 @@ h2 {
   font-weight: 300;
 }
 
+.grid-header {
+  line-height: normal;
+  font-size: 3.75em;
+  font-weight: 300;
+}
+
 h3 {
   font-weight: 300;
-  font-size: 1.8em;
+  font-size: 1.7em;
 }
 
 h3, h4, h5, span.rotate-text {
-  font-size: 1.4em;
+  font-size: 1.7em;
   font-weight: 300;
 }
 
@@ -103,6 +109,14 @@ p {
   min-width: 528px;
 }
 
+h3.rotate-text {
+  font-size: 1.7em;
+}
+
+.grid-area h3.rotate-text {
+  font-size: 1.4em;
+}
+
 a, a:visited {
   color: #0026F5;
   text-decoration: none;
@@ -120,7 +134,6 @@ a:hover {
 a.cyan-logo {
   text-decoration: none;
   border-bottom: none;
-  /* z-index: 13 !important; */
 }
 
 .main-container {
@@ -369,7 +382,7 @@ a.email-text:last-of-type:hover {
 }
 
 .footer-text {
-  font-size: 1.8em;
+  font-size: 1.7em;
   font-weight: 300;
   text-align: center;
 }
@@ -441,7 +454,6 @@ Responsive Media Queries
   .rotate-text {
       transform: rotate(0deg);
       min-width: unset;
-      /* width: 90%; */
   }
   .features {
       flex-direction: column;
@@ -552,14 +564,13 @@ Responsive Media Queries
       background: url(./lib/images/email-grid.svg) repeat !important;
       background-size: cover !important;
       cursor: auto !important;
-      height: 825px;
+      height: 875px;
       width: 100%;
   }
 
   .grid-child:last-of-type {
       /* background: url(./lib/images/horizontal-lines.svg) repeat; */
       background-size: cover;
-      /* margin-top: 43px; */
       margin-top: 125px;
       margin-bottom: 75px;
       height: 350px;
@@ -572,13 +583,28 @@ Responsive Media Queries
   }
 
   .grid-child:last-of-type h3, .grid-child:last-of-type h4 {
-    font-size: 1.8em;
+    font-size: 1.7em;
     line-height: normal;
     max-width: 85vw;
   }
 
   nav a {
     font-size: 1.25em;
+  }
+
+  h3.rotate-text {
+      font-size: 1.7em;
+  }
+
+  .grid-child .grid-header {
+    margin-top: 49px;
+    line-height: normal;
+    font-size: 4em;
+    font-weight: 300;
+  }
+
+  .grid-area h3.rotate-text {
+    font-size: 1.7em;
   }
 
 }

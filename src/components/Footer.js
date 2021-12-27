@@ -10,7 +10,7 @@ class Footer extends React.Component {
                 <div className="content-container">
                 
                     <footer className="footer">
-                        <span className="footer-text">
+                        <span className="footer-text" title="Cyan NYC">
                             End of Website
                         </span>
                     </footer>

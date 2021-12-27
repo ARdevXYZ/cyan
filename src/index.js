@@ -23,8 +23,8 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-let browserHeight = window.innerHeight;
-let browserWidth = window.innerWidth;
+const browserHeight = window.innerHeight;
+const browserWidth = window.innerWidth;
 
 const styles = {
   border: '0px',

@@ -17,7 +17,7 @@ class Grid extends React.Component {
                     <section className="grid-area" style={gridStyle} role="main">
 
                         <div className="grid-child">
-                            <h2 title="cyan nyc" alt="cyan">{siteTitle} is<br />dreaming of <br />the internet</h2>
+                            <h2 title="cyan nyc" alt="cyan nyc" title="cyan" className="grid-header">{siteTitle} is<br />dreaming of <br />the internet</h2>
                         </div>
                         <div className="grid-child">
                             <h3 className="rotate-text" role="contentinfo">

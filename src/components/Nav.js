@@ -19,7 +19,7 @@ class Nav extends React.Component {
 
                     <div className="logo-container">
                         <a className="cyan-logo" href={siteURL} title="Cyan" alt="Cyan">
-                            <img src={logo} alt={siteTitle} title={siteTitle} className="cyan-logo" />
+                            <img src={logo} alt={siteTitle} title={siteTitle} className="cyan-logo" width="125px" height="auto" />
                         </a>
                     </div>
 

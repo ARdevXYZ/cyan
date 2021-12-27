@@ -42,6 +42,7 @@ class Services extends React.Component {
                             <span className="list-item" role="listitem">web animation</span>
                             <span className="list-item" role="listitem">automation</span>
                             <span className="list-item" role="listitem">advanced analytics</span>
+                            <span className="list-item" role="listitem">e-commerce</span>
                             <span className="list-item" role="listitem">wordpress theme development</span>
                             <span className="list-item" role="listitem">content management systems (CMS)</span>
                             <span className="list-item" role="listitem">creative consulting</span>
