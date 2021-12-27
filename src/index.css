@@ -1,4 +1,4 @@
-@import url("https://use.typekit.net/jqo5twg.css");
+@import url("https://use.typekit.net/rmh7msa.css");
 
 body {
   margin: 0;
@@ -167,7 +167,11 @@ a.cyan-logo {
   justify-content: flex-end;
   align-items: center;
   margin: 0.25em 0em;
-  font-size: 1.1em;
+  font-size: 1.2em;
+}
+
+.nav a {
+  margin-left: 2em;
 }
 
 section {
@@ -382,7 +386,7 @@ a.email-text:last-of-type:hover {
 }
 
 .footer-text {
-  font-size: 1.7em;
+  font-size: 2em;
   font-weight: 300;
   text-align: center;
 }
@@ -588,10 +592,6 @@ Responsive Media Queries
     max-width: 85vw;
   }
 
-  nav a {
-    font-size: 1.25em;
-  }
-
   h3.rotate-text {
       font-size: 1.7em;
   }
@@ -605,6 +605,12 @@ Responsive Media Queries
 
   .grid-area h3.rotate-text {
     font-size: 1.7em;
+  }
+
+  .nav a {
+    margin-left: 2em;
+    margin-bottom: 1em;
+    font-size: 1em;
   }
 
 }
