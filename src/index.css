@@ -470,7 +470,7 @@ Responsive Media Queries
       justify-content: center;
       background: #FFF;
       background-image: none !important;
-      background-size: cover !important;
+      background-size: auto !important;
       cursor: auto !important;
   }
   .grid-area::after {
@@ -523,7 +523,7 @@ Responsive Media Queries
       right: 4%;
   }
   .contact-grid {
-      height: 850px;
+      height: 825px;
       width: 100%;
       background: url(./lib/images/email-grid.svg) repeat;
       background-size: cover;
@@ -552,7 +552,7 @@ Responsive Media Queries
       background: url(./lib/images/email-grid.svg) repeat !important;
       background-size: cover !important;
       cursor: auto !important;
-      height: 850px;
+      height: 825px;
       width: 100%;
   }
 
@@ -571,7 +571,7 @@ Responsive Media Queries
     line-height: normal;
   }
 
-  .grid-child:last-of-type h4 {
+  .grid-child:last-of-type h3, .grid-child:last-of-type h4 {
     font-size: 1.8em;
     line-height: normal;
     max-width: 85vw;
