@@ -14,15 +14,15 @@ class Grid extends React.Component {
 
                 <div class="content-container">
                 
-                    <section className="grid-area" style={gridStyle}>
+                    <section className="grid-area" style={gridStyle} role="main">
 
                         <div className="grid-child">
-                            <h2>{siteTitle} is<br />dreaming of <br />the internet</h2>
+                            <h2 title="cyan nyc" alt="cyan">{siteTitle} is<br />dreaming of <br />the internet</h2>
                         </div>
                         <div className="grid-child">
-                            <h4 className="rotate-text">
+                            <h3 className="rotate-text" role="contentinfo">
                                 Cyan is an independent digital creative studio based in Brooklyn, New York, specialized in web and app development services, web animation, WordPress development and CMS solutions, and technical and creative consulting.
-                            </h4>
+                            </h3>
                         </div>
 
                     </section>

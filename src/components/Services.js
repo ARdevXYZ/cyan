@@ -11,14 +11,13 @@ class Services extends React.Component {
                 <div className="content-container">
                 
                     <section className="features">
-                        <div className="feature-area feature-area-border">
-                            <span className="list-item">javascript</span>
-                            <span className="list-item">php</span>
-                            <span className="list-item">react</span>
-                            <span className="list-item">jsxx</span>
-                            <span className="list-item">python</span>
-                            <span className="list-item">more‼️</span>
-                            <div className="rates">Let's work</div>
+                        <div className="feature-area feature-area-border" role="list">
+                            <span className="list-item" role="listitem">javascript</span>
+                            <span className="list-item" role="listitem">php</span>
+                            <span className="list-item" role="listitem">react</span>
+                            <span className="list-item" role="listitem">jsxx</span>
+                            <span className="list-item" role="listitem">python</span>
+                            <span className="list-item" role="listitem">more‼️</span>
                         </div>
                         <div className="feature-area">
                             <h3 className="rotate-text">Languages Spoken</h3>
@@ -27,26 +26,26 @@ class Services extends React.Component {
                             <h3 className="rotate-text">Things Dug</h3>
                             
                         </div>
-                        <div className="feature-area feature-area-border">
-                            <span className="list-item">minor threat</span>
-                            <span className="list-item">miho nakayama</span>
-                            <span className="list-item">destiny's child</span>
-                            <span className="list-item">tom waits?</span>
-                            <span className="list-item">fugazi ??</span>
-                            <span className="list-item">WNYC</span>
-                            <span className="list-item">NPR</span>
+                        <div className="feature-area feature-area-border" role="list">
+                            <span className="list-item" role="listitem">minor threat</span>
+                            <span className="list-item" role="listitem">miho nakayama</span>
+                            <span className="list-item" role="listitem">destiny's child</span>
+                            <span className="list-item" role="listitem">tom waits?</span>
+                            <span className="list-item" role="listitem">fugazi ??</span>
+                            <span className="list-item" role="listitem">WNYC</span>
+                            <span className="list-item" role="listitem">NPR</span>
                         </div>
-                        <div className="feature-area feature-area-border">
-                            <span className="list-item">websites</span>
-                            <span className="list-item">microsites</span>
-                            <span className="list-item">applications</span>
-                            <span className="list-item">web animation</span>
-                            <span className="list-item">automation</span>
-                            <span className="list-item">advanced analytics</span>
-                            <span className="list-item">wordpress theme development</span>
-                            <span className="list-item">content management systems (CMS)</span>
-                            <span className="list-item">creative consulting</span>
-                            <span className="list-item">tech consulting</span>
+                        <div className="feature-area feature-area-border" role="list">
+                            <span className="list-item" role="listitem">websites</span>
+                            <span className="list-item" role="listitem">microsites</span>
+                            <span className="list-item" role="listitem">applications</span>
+                            <span className="list-item" role="listitem">web animation</span>
+                            <span className="list-item" role="listitem">automation</span>
+                            <span className="list-item" role="listitem">advanced analytics</span>
+                            <span className="list-item" role="listitem">wordpress theme development</span>
+                            <span className="list-item" role="listitem">content management systems (CMS)</span>
+                            <span className="list-item" role="listitem">creative consulting</span>
+                            <span className="list-item" role="listitem">tech consulting</span>
                             <div className="rates"><a href={emailURL} alt="Email Us" title="Email Us">Email us</a></div>
                         </div>
                         <div className="feature-area">

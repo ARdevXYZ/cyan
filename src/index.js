@@ -34,6 +34,7 @@ const styles = {
 
 function App() {
 
+
   return (
     <div className="App">
       <ReactSketchCanvas
@@ -51,8 +52,6 @@ function App() {
       <Marquee />
       <ContactGrid />
       <Footer />
- 
-
 
 
     </div>

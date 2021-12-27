@@ -12,7 +12,7 @@ class Nav extends React.Component {
 
                 <header className="header">
 
-                    <nav className="nav">
+                    <nav className="nav" role="navigation">
                         <a href={emailURL} title="Email Cyan" alt="Email Cyan">Email Cyan</a>
 
                     </nav>

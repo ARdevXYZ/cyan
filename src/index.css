@@ -11,6 +11,7 @@ body {
   font-style: normal;
   font-size: 1em;
   color: #0026F5;
+  cursor: crosshair !important;
 }
 
 code {
@@ -72,12 +73,12 @@ h3 {
   font-size: 1.8em;
 }
 
-h4, h5, span.rotate-text {
+h3, h4, h5, span.rotate-text {
   font-size: 1.4em;
   font-weight: 300;
 }
 
-span.rotate-text, h4.rotate-text {
+span.rotate-text, h3.rotate-text, h4.rotate-text {
   margin-right: -5px;
   line-height: 41px;
 }
@@ -119,7 +120,7 @@ a:hover {
 a.cyan-logo {
   text-decoration: none;
   border-bottom: none;
-  z-index: 13 !important;
+  /* z-index: 13 !important; */
 }
 
 .main-container {
@@ -542,7 +543,7 @@ Responsive Media Queries
       top: 75%;
   }
 
-  h4.rotate-text {
+  h3.rotate-text, h4.rotate-text {
       line-height: 46.5px;
   }
 
