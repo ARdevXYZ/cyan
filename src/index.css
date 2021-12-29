@@ -1,11 +1,16 @@
-@import url("https://use.typekit.net/rmh7msa.css");
+
+@font-face {
+	font-family: 'Nimbus Sans';
+	src: url('./NimbusSans-Regular.ttf')  format('truetype');
+	font-style:   normal;
+	font-weight:  400;
+  }
 
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: nimbus-sans, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
-  font-weight: 300;
+  font-family: 'Nimbus Sans';
   font-style: normal;
   font-size: 1em;
   color: #0026F5;
@@ -280,7 +285,6 @@ section {
 .feature-area-border {
   border: 1px solid #0026F5;
   margin-top: -1px;
-  animation: border 10s linear infinite;
 }
 
 .list-item {
@@ -573,7 +577,6 @@ Responsive Media Queries
   }
 
   .grid-child:last-of-type {
-      /* background: url(./lib/images/horizontal-lines.svg) repeat; */
       background-size: cover;
       margin-top: 125px;
       margin-bottom: 75px;
