@@ -1,17 +1,13 @@
+@import url("https://use.typekit.net/rmh7msa.css");
 
-@font-face {
-	font-family: 'Nimbus Sans';
-	src: url('./NimbusSans-Regular.ttf')  format('truetype');
-	font-style:   normal;
-	font-weight:  400;
-  }
 
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Nimbus Sans';
+  font-family: nimbus-sans, sans-serif;
   font-style: normal;
+  font-weight: 300;
   font-size: 1em;
   color: #0026F5;
   cursor: crosshair !important;
