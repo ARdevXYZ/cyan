@@ -1,6 +1,6 @@
 import React from "react";
 
-const emailURL = "mailto:cyan@cyan.nyc"
+const emailURL = "mailto:andrew.rosinski@gmail.com"
 
 class ContactGrid extends React.Component {
 

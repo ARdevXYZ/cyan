@@ -65,14 +65,14 @@ h1 {
 }
 
 h2 {
-  font-size: 3em;
-  font-weight: 300;
+  font-size: 4rem;
+  font-weight: 400;
 }
 
 .grid-header {
   line-height: normal;
-  font-size: 3.75em;
-  font-weight: 300;
+  font-size: 4rem;
+  font-weight: 400;
 }
 
 h3 {

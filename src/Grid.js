@@ -17,7 +17,7 @@ class Grid extends React.Component {
                     <section className="grid-area" style={gridStyle}>
 
                         <div className="grid-child">
-                            <h2>{siteTitle} is<br />dreaming of <br />the internet</h2>
+                            <h2>{siteTitle} is<br />dreaming of <br />better technology</h2>
                         </div>
                         <div className="grid-child">
                             <h4 className="rotate-text">
