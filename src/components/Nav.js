@@ -3,7 +3,7 @@ import React from "react";
 
 const siteTitle = "Cyan";
 const emailURL = "mailto:andrew.rosinski@gmail.com";
-const workURL = "https://github.com/ARdevXYZ/cyan-nyc-work/blob/main/README.md";
+const workURL = "https://cyan-nyc.vercel.app";
 const siteURL = "./";
 class Nav extends React.Component {
 

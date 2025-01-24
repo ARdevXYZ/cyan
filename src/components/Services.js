@@ -31,12 +31,14 @@ class Services extends React.Component {
                             <span className="list-item" role="listitem">kraftwerk</span>
                             <span className="list-item" role="listitem">david lynch</span>
                             <span className="list-item" role="listitem">YMO</span>
+                            <span className="list-item" role="listitem">SZA</span>
                         </div>
                         <div className="feature-area feature-area-border" role="list">
                             <span className="list-item" role="listitem">web applications</span>
-                            <span className="list-item" role="listitem">applications</span>
+                            <span className="list-item" role="listitem">Routed web applications</span>
                             <span className="list-item" role="listitem">react microsites</span>
                             <span className="list-item" role="listitem">livestream webapps</span>
+                            <span className="list-item" role="listitem">AI chat applications</span>
                             <span className="list-item" role="listitem">web animation</span>
                             <span className="list-item" role="listitem">automation</span>
                             <span className="list-item" role="listitem">advanced analytics</span>

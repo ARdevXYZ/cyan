@@ -11,7 +11,7 @@ class Footer extends React.Component {
                 
                     <footer className="footer">
                         <span className="footer-text" title="Cyan NYC">
-                            End of Website
+                            End
                         </span>
                     </footer>
 
